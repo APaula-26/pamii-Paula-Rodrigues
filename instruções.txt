@@ -1,0 +1,16 @@
+1 - Criar um projeto chamado aula03 utilizando o comando npx create-expo-app@latest;
+2 - Resetar o projeto utilizando o comando npm run reset-project
+3 - Ir na documentação do Gluestack e instalar ele no seu projeto expo
+4 - Lembrar que para adicionar um componente no gluestack você vai fazer os seguintes passos:
+	- npx gluestack-ui add nome-do-componente
+	- Importar o componente no seu arquivo import { nome-do-componente } from "@/components/ui/nome-do-componente";
+	- Saber que você deve colocar o código do componente dentro da sua função! Ex:
+	import { nome-do-componente } from "@/components/ui/nome-do-componente";
+
+	export default function Index() {
+  	return (
+    		<nome-do-componente>
+      			
+    		</nome-do-componente>
+  		);
+	}
