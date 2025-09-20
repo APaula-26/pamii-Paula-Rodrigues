@@ -1,15 +1,14 @@
 import { useState } from "react"
 import {
-  Alert,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    View
 } from "react-native"
 
+import { api } from "@/server/api"
 import { isAxiosError } from "axios"
-import { api } from "./server/api"
 
 export default function Home() {
   const [email, setEmail] = useState("")
@@ -22,13 +21,13 @@ export default function Home() {
         password,
       })
 
-      Alert.alert("Olá " + response.data.name)
+      alert("Olá " + response.data.name)
     } catch (error) {
       if (isAxiosError(error)) {
-        return Alert.alert(error.response?.data)
+        return alert(error.response?.data)
       }
 
-      Alert.alert("Não foi possível entrar.")
+      alert("Não foi possível entrar.")
     }
   }
 
