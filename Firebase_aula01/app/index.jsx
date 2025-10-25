@@ -2,12 +2,12 @@ import firebase from "firebase/compat/app";
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBpkmngbcETqDKHRcuhkA8cUjo0mZ8gCHQ",
-  authDomain: "meu-primeiro-firebase-1e595.firebaseapp.com",
-  projectId: "meu-primeiro-firebase-1e595",
-  storageBucket: "meu-primeiro-firebase-1e595.firebasestorage.app",
-  messagingSenderId: "83995557883",
-  appId: "1:83995557883:web:269034d8c825a51903955e"
+  apiKey: process.env.EXPO_PUBLIC_APIKEY,
+  authDomain: process.env.EXPO_PUBLIC_AUTHDOMAIN ,
+  projectId: process.env.EXPO_PUBLIC_PROJECTID ,
+  storageBucket: process.env.EXPO_PUBLIC_STORAGEBUCKET,
+  messagingSenderId: process.env.EXPO_PUBLIC_MESSAGINGSENDERID,
+  appId: process.env.EXPO_PUBLIC_APPID
 };
 
 
