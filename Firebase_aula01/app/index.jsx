@@ -37,14 +37,17 @@ export default function App(){
  }, []);
 
    return (
-    <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
-      <Text>Lista de Nomes:</Text>
+    
+    <View style={{flex:1,justifyContent:'center', alignItems:'center', backgroundColor: '#820263' }}>
+     <div style={{justifyContent:'center',alignItems:'center', container:'justify',backgroundColor:'#8D86C9', paddingLeft: '1000px' }}>
+      <Text><p style={{fontSize: '70px'}}>Lista de Nomes:</p></Text> 
+      </div>
       <FlatList
         data={nomes}
         keyExtractor={(item)=> item.id}
         renderItem={({ item } ) => (
           <View>
-            <Text>{item.Nome} {item.Sobrenome}</Text>
+            <Text style={{fontSize:'50px', width: 1350}}>{item.Nome} {item.Sobrenome}</Text>
           </View>
           )}
        />

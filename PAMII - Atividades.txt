@@ -1,0 +1,34 @@
+PAMII - Atividades: 
+
+______________________________________________________________________________________
+Apresentar um app com as operações crud 
+
+Aplicativo mobile -> Ideia livre, do que é e como deve ser. 
+Apresentar no dia 28.11.25 
+Critério de avaliação:
+
+Aplicativo funcional - O CRUD funcionar;
+Ter um adicional diferente; 
+Estar impecável o básico com arroz e feijão. 
+
+
+Apresentar de maneira técnica, explicar o código de maneira conexa e arrasar. 
+Quais os desafios para chegar na solução.
+
+_______________________________________________________________________________________
+
+No dia 05.12 vai ter uma atividade em cima do que foi apresentado no dia 28.11.
+_______________________________________________________________________________________
+
+
+PWIII - Atividades:
+_______________________________________________________________________________________
+
+Construção de um portfólio, que se iniciará no dia 03.11
+
+_______________________________________________________________________________________
+
+
+
+
+
